@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+.placement {
+	position: absolute;
+}
+
+.nobutton {
+  background-image: url("nobutton.png");
+  position: absolute;
+  left: 523px;
+  top: 300px;
+  width: 403px;
+  height: 400px;
+  z-index: 5;
+}
+
+.yesbutton {
+  background-image: url("yesbutton.png");
+  position: absolute;
+  left: 77px;
+  top: 300px;
+  width: 396px;
+  height: 396px;
+  z-index: 4;
+}
+
+.clickyesbutton {
+  background-image: url("clickyesbutton.png");
+  position: absolute;
+  left: 71px;
+  top: 185px;
+  width: 407px;
+  height: 422px;
+  z-index: 3;
+}
+
+.loserbutton {
+  background-image: url("loserbutton.png");
+  position: absolute;
+  left: 500px;
+  top: 185px;
+  width: 449px;
+  height: 430px;
+  z-index: 2;
+}
+
+.background {
+  background-image: url("background.png");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1000px;
+  height: 800px;
+  z-index: 1;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.text1 {
+	color: darkslateblue;
+	padding: 20px;
+}
+
+.text2 {
+	color:turquoise;
+	text-transform: lowercase;
+	
+}
+
+.pills {
+  background-image: url("pills.png");
+  position: absolute;
+  left: 1046px;
+  top: 151px;
+  width: 260px;
+  height: 225px;
+  z-index: 12;
+}
+
+.disp:hover{
+	opacity: 0;
+	transition: 1s;
+}
+
+.cigarette {
+  background-image: url("cigarette.png");
+  position: absolute;
+  left: 794px;
+  top: 453px;
+  width: 299px;
+  height: 343px;
+  z-index: 11;
+}
+
+
+.persondrinking {
+  background-image: url("persondrinking.png");
+  position: absolute;
+  left: 1162px;
+  top: 722px;
+  width: 381px;
+  height: 262px;
+  z-index: 10;
+}
+.joint {
+  background-image: url("joint.png");
+  position: absolute;
+  left: 1653px;
+  top: 643px;
+  width: 166px;
+  height: 306px;
+  z-index: 9;
+}
+.alc {
+  background-image: url("alc.png");
+  position: absolute;
+  left: 140px;
+  top: 292px;
+  width: 376px;
+  height: 346px;
+  z-index: 8;
+}
+.greensmile {
+  background-image: url("greensmile.png");
+  position: absolute;
+  left: 1664px;
+  top: 47px;
+  width: 144px;
+  height: 142px;
+  z-index: 7;
+}
+
+
+
+.orangesmile {
+  background-image: url("orangesmile.png");
+  position: absolute;
+  left: 1430px;
+  top: 349px;
+  width: 234px;
+  height: 231px;
+  z-index: 6;
+
+}
+
+@keyframes spinning {
+	from {transform: rotate(0deg)}
+	to {transform: rotate(360deg)}
+}
+.spin {
+	animation-name: spinning;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	/* linear | ease | ease-in | ease-out | ease-in-out */
+	animation-timing-function: linear;
+}
+
+
+.bluesmile {
+  background-image: url("bluesmile.png");
+  position: absolute;
+  left: 169px;
+  top: 814px;
+  width: 172px;
+  height: 170px;
+  z-index: 5;
+}
+.pinksmile {
+  background-image: url("pinksmile.png");
+  position: absolute;
+  left: 516px;
+  top: 118px;
+  width: 234px;
+  height: 231px;
+  z-index: 4;
+}
+
+.clock {
+	background-image: url("clock.gif");
+	position: absolute;
+	left: 516px;
+	top: 655px;
+	width: 350px;
+	height: 350px;
+}
+
+.skull {
+	position: absolute;
+	left: 900px;
+	top: 200px;
+	width: 375px;
+	height: 283px;
+		
+	
+}
